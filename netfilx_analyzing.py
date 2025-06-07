@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 # sns.set_theme()
-dataset = pd.read_csv("C:/Senthan/Python/pandas/data/netflix_data/netflix_data.csv")
+dataset = pd.read_csv("./data/netflix_data/netflix_data.csv")
 print(dataset.columns)
 # print(dataset["description"])
 data_set_1 = dataset.drop(columns=["show_id","type","title","director","cast","country","listed_in","description"])
